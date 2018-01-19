@@ -43,6 +43,8 @@ elseif(SMTK_ENABLE_VTK_SUPPORT)
     vtkRenderingFreeType
     vtkRenderingOpenGL2
     vtkRenderingVolumeOpenGL2
+    vtkIOGeometry
+    vtkIOPLY
     )
 
   if (SMTK_ENABLE_TESTING)
